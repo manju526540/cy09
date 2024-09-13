@@ -1,0 +1,8 @@
+This page allows you to upload a file. Note that the script will limit the size of the file to around 50k (so that the server doesn't get swamped with data).
+
+The file upload form looks just like any other form except that:
+
+the form tag must specify the POST method
+the form tag must specify an enctype of multipart/form-data
+the form must contain an <input type=file> element.
+You can do a view source on this document to see all the elements.
